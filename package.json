@@ -1,0 +1,24 @@
+{
+  "name": "hanumanji",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i css/application.css -o assets/application.css.liquid -w -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushpatel-dev/hanumanji.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushpatel-dev/hanumanji/issues"
+  },
+  "homepage": "https://github.com/kushpatel-dev/hanumanji#readme",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
